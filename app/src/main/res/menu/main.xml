@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.example.anrdoid.newsappstage2.MainActivity">
+    <item
+        android:id="@+id/action_setting"
+        android:title="@string/settings_title"
+        android:icon="@drawable/ic_action_settings"
+        app:actionViewClass="android.widget.Settings"
+        app:showAsAction="always"/>
+
+</menu>
